@@ -1,3 +1,8 @@
+# Simulation of the America TV show "Monty Hall" where the host invites guests to select one of three doors  behind which there are 2 goats and 1 car hidden.
+# The game show is explained here: https://en.wikipedia.org/wiki/Monty_Hall_problem
+# The following simulation shows out of 1000 shows around 333 only gives the car in the original door.
+# firstwin column gives a cumulative count of all shows that got the car in the first door that remained unchanged.
+# lastwin gives cuulative counts of wins if the audience always switched their choice of the door.
 library(data.table)
 library(magrittr)
 library(purrr)
